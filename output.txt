@@ -1,0 +1,33 @@
+PS C:\Vj_Data\Study\Python> & C:\Python313\python.exe c:/Vj_Data/Study/Python/numpy_arrays_operations.py
+Scores:
+[[88 78 64 92]
+ [57 70 88 68]
+ [72 60 60 73]
+ [85 89 73 52]
+ [71 51 73 93]]
+The score of the 3rd student in the 2nd subject: 60
+All scores of the last 2 students (all subjects): 
+ [[85 89 73 52]
+ [71 51 73 93]]
+All scores for the first 3 students in subjects 2 and 3 only: 
+ [[78 64]
+ [70 88]
+ [60 60]]
+column-wise mean: [74.6 69.6 71.6 75.6]
+curved scores:
+[[93 81 71 94]
+ [62 73 95 70]
+ [77 63 67 75]
+ [90 92 80 54]
+ [76 54 80 95]]
+row_wise_max: [94 95 77 92 95]
+normalized scores:
+[[0.95652174 0.43478261 0.         1.        ]
+ [0.         0.33333333 1.         0.24242424]
+ [1.         0.         0.28571429 0.85714286]
+ [0.94736842 1.         0.68421053 0.        ]
+ [0.53658537 0.         0.63414634 1.        ]]
+student index (row): 0
+subject index (column): 3
+curved scores above 90: [93 94 95 92 95]
+PS C:\Vj_Data\Study\Python> 
